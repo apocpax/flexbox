@@ -1,0 +1,12 @@
+.container{
+    border: 1px solid blue;
+    padding: 10px;
+    display: grid;
+    grid-template: repeat(3,100px) / 25% 25% 25%;
+    grid-gap: 10px;
+}
+
+.box{
+    background-color: orange;
+    border: 1px solid blue;
+}
